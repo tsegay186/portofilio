@@ -1,17 +1,20 @@
 import React from "react";
-
+import { useForm, ValidationError } from "@formspree/react";
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xzbnzkap");
+  if (state.succeeded) {
+    return <p className="flex justify-center">Thanks for joining!</p>;
+  }
   return (
     <div className="min-h-fit py-12 flex justify-evenly items-center mt-6 w-auto gap-x-8">
       <div className="">
         <div className="py-3">
-          I'd love to hear from you. Fill out the form and we'll be in touch.
+          I would love to hear from you. Fill out the form and we wll be in touch.
         </div>
 
         <div>
           <form
-            action=""
-            method="post"
+            onSubmit={handleSubmit}
             style={{
               display: "flex",
               width: "80%",
@@ -31,15 +34,21 @@ const Contact = () => {
                   border: "1px solid black",
                 }}
                 id="fullName"
+                name="fullName"
                 type="text"
-                value=""
                 placeholder="Full Name"
+              />
+              <ValidationError
+                prefix="Fullname"
+                field="fullname"
+                errors={state.errors}
               />
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <label htmlFor="email">Your Email</label>
               <input
                 id="email"
+                name="email"
                 style={{
                   height: "40px",
                   width: "100%",
@@ -49,8 +58,12 @@ const Contact = () => {
                   border: "1px solid black",
                 }}
                 type="text"
-                value=""
                 placeholder="Email"
+              />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
               />
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
@@ -66,7 +79,6 @@ const Contact = () => {
                 }}
                 id="subject"
                 type="text"
-                value=""
                 placeholder="Subject"
               />
             </div>
@@ -82,8 +94,13 @@ const Contact = () => {
                   border: "1px solid black",
                 }}
                 id="message"
-                value=""
+                name="message"
                 placeholder="Message"
+              />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
               />
             </div>
             <div
@@ -95,7 +112,7 @@ const Contact = () => {
             >
               <button
                 className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
-                type="submit"
+                type="submit" disabled={state.submitting}
                 style={{
                   width: "100%",
                   alignSelf: "center",

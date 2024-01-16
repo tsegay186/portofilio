@@ -81,16 +81,16 @@ const What = () => {
             <p>
               Player chooses three numbers from 1 to 24. A random beer is
               opened and the number on the cork is read. If the number on the
-              cork is one of the player's chosen numbers, the player drinks the
+              cork is one of the players chosen numbers, the player drinks the
               beer for free. If the number on the cork is not one of the
-              player's chosen numbers, the player pays for the beer and pays an
+              players chosen numbers, the player pays for the beer and pays an
               additional amount for their try. classic. Interesting. right? let us make it more Interesting.
             </p>
             <p>
              <b>Now Imagine</b> a digital beer roulette in your favorite bar! Every 10
               seconds, it spits out 6 random numbers, 1 to 24. Want in? Just
               pick 3 numbers before each spin for a few cents per try. If even
-              one of your numbers appears, boom! Free beer on the house! It's a
+              one of your numbers appears, boom! Free beer on the house! It is a
               quick, cheap chance to win a tasty prize and liven up your bar
               experience. No pressure, just pure, frothy fun!
             </p>
@@ -181,7 +181,7 @@ const How = () => {
             </li>
             <li>
               <b>Did you win?</b> Check if any of your chosen numbers match the
-              drawn numbers. Even if just one of yours appears, you're a winner!
+              drawn numbers. Even if just one of yours appears, you are a winner!
             </li>
             <li>
               <b>Cheers to free beer!</b>
