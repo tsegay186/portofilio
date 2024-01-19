@@ -1,9 +1,9 @@
-import beerRouletteThumbnail from '../../public/beerRouletteThumbnail.jpg'
-import digitalBingoThumbnail from '../../public/digitalBingoThumbnail.jpg'
-import leletalkThumbnail from '../../public/leletalkThumbnail.jpg'
-import geezOCRThumbnail from '../../public/geezOcrThumbnail.jpg'
-import letItBeThumbnail from '../../public/letItThumbnail.jpg'
-import nameStoreThumbnail from '../../public/nameStoreThumbnail.jpg'
+import beerRouletteThumbnail from '/public/beerRouletteThumbnail.jpg'
+import digitalBingoThumbnail from '/public/digitalBingoThumbnail.jpg'
+import leletalkThumbnail from '/public/leletalkThumbnail.jpg'
+import geezOCRThumbnail from '/public/geezOcrThumbnail.jpg'
+import letItBeThumbnail from '/public/letItThumbnail.jpg'
+import nameStoreThumbnail from '/public/nameStoreThumbnail.jpg'
 
 const t = ['./ocrThumbnail.JPG', 'thumbnailLetit.JPG', './thumbnailbeerroultee.JPG','./bingothumbnail.JPG']
 const leletalk = {
