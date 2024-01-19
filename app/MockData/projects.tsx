@@ -11,11 +11,20 @@ const leletalk = {
 const bingoStation = {
     title: 'Digital Bingo',
     inAppLink: '/projects/bingo',
-    gitHubLink: [''],
-    webLink: '/Projects/digitalBingo',
+    gitHubLink: ['','https://github.com/tsegay186/youbet'],
+    webLink: '',
     thumbnail: './bingothumbnail.JPG',
     description: `My passion project, Digital Bingo , is a web app reinventing the classic Bingo game for the digital age. Ditch the markers and missed wins! This platform generates Bingo Cards, automatically tracks numbers, instantly detects victorious patterns, and explodes in cheers for champions. Dive into diverse virtual rooms, and experience the excitement of the draw from anywhere with an internet connection. It's bingo made effortless and thrilling.`}
-const letItBe = {
+const GeezOCR = {
+    title: 'GeezOCR',
+    inAppLink: '',
+    gitHubLink: [''],
+    webLink: '',
+    thumbnail: './ocr.JPG',
+    description: `This project tackles the challenge of Ge'ez text recognition, developing an OCR system that handles both handwritten and document formats. Leveraging deep learning, it unlocks historical and contemporary content for research, preservation, and wider accessibility.`
+}
+
+    const letItBe = {
     title: 'Let It Be',
     inAppLink: '/projects/letitbe',
     gitHubLink: ['https://github.com/tsegay186/letitbe','https://github.com/tsegay186/iconclast'],
@@ -28,7 +37,7 @@ const beerRoultee = {
     title: 'Beer Roultee',
     inAppLink: '/projects/beerroulette',
     gitHubLink: ['https://github.com/tsegay186/beerroulette'],
-    webLink: '',
+    webLink: 'https://beerroulette.vercel.app',
     thumbnail: './thumbnailbeerroultee.JPG',
     description: `The Beer Game is a simple but addictive game where players choose combination of numbers from 1 to 24. and then Some numbers(according to the game configuration) are drawn randomly if player's chosen numbers are there in the drawn numbers , they drink some(according to the odd) beer for free and get some payouts. If player’s chosen numbers are not there in the randomly drawn numbers, they pay some stake for their try.`
 }
@@ -42,6 +51,6 @@ const nameStore = {
     description: `This innovative app dives into the diverse names across cultures, uncovering the playful nicknames and heartfelt endearments used around the world. Users can contribute their knowledge, building a vibrant community that celebrates the uniqueness and shared humanity woven into names.`
 }
 
-const myProjects = [nameStore, beerRoultee, letItBe, bingoStation, leletalk]
+const myProjects = [nameStore, beerRoultee, letItBe,GeezOCR, bingoStation, leletalk]
 
 export default myProjects
