@@ -3,6 +3,7 @@ import Project from "./components/Project"
 import myProjects from "./MockData/projects"
 import Contact from "./contact/page"
 import { Skills } from "./components/skills"
+import Image from "next/image"
 export default function Home() {
   return (
     <>
@@ -41,7 +42,7 @@ const Profile = () => {
       <div className="flex  flex-wrap sm:h-96 sm:mb-2">
         <div >
           <div className="flex gap-3">
-            <img src="./tsg.jpg" alt="" style={{ width: '150px', borderRadius: '50%' }} />
+            <Image src="/tsg.jpg" width={150} height={150} alt="" style={{borderRadius: '50%' }} />
             <h1 className='text-5xl font-bold items-center self-end' >Hello.</h1>
           </div>
           <p className='text-xl font-light  max-w-xl pt-6 '>My name is <b className="font-medium text-xl my-3 ">Tsegay Berhanu</b>, a full stack developer based in Ethiopia, driven with a passion for crafting elegant and impactful web experiences. Adept in both front-end and back-end technologies,
