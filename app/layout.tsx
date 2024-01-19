@@ -20,7 +20,7 @@ export default function RootLayout({
         </div>
         <div className=' px-6 justify-center'>
           {children}</div>
-          <div className='bg-slate-100 bg-neutral-100 flex justify-center '>
+          <div className='bg-slate-100 flex justify-center '>
           <AppFooter/>
           </div>
       </body>
