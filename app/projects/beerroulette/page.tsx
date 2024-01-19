@@ -7,18 +7,22 @@ const what = {
   header: "What Is Beer Roultee",
   thumbnail: "/beerol.JPG",
   description: ``,
+  alt:'beerRoulette'
 };
 
 const why = {
   header: "Why Beer Roultee",
   thumbnail: "/beerWhy.JPG",
   description: "Why",
+  alt:'beerRoulette'
+
 };
 
 const how = {
   header: "How Beer Roultee",
   thumbnail: "",
   description: "How",
+  alt:'beerRoulette'
 };
 
 interface WhQ {
