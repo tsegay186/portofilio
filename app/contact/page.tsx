@@ -3,13 +3,19 @@ import { useForm, ValidationError } from "@formspree/react";
 const Contact = () => {
   const [state, handleSubmit] = useForm("xzbnzkap");
   if (state.succeeded) {
-    return <p className="flex justify-center">Thanks for joining!</p>;
+    return (
+      <p className="flex justify-center">
+        {" "}
+        <h2 className="text-2xl">Thank you, I will reach you out very soon.</h2>
+      </p>
+    );
   }
   return (
     <div className="min-h-fit py-12 flex justify-evenly items-center mt-6 w-auto gap-x-8">
       <div className="">
         <div className="py-3">
-          I would love to hear from you. Fill out the form and we wll be in touch.
+          I would love to hear from you. Fill out the form and we wll be in
+          touch.
         </div>
 
         <div>
@@ -112,7 +118,8 @@ const Contact = () => {
             >
               <button
                 className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"
-                type="submit" disabled={state.submitting}
+                type="submit"
+                disabled={state.submitting}
                 style={{
                   width: "100%",
                   alignSelf: "center",
