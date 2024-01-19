@@ -5,7 +5,6 @@ import geezOCRThumbnail from '/public/geezOcrThumbnail.jpg'
 import letItBeThumbnail from '/public/letItThumbnail.jpg'
 import nameStoreThumbnail from '/public/nameStoreThumbnail.jpg'
 
-const t = ['./ocrThumbnail.JPG', 'thumbnailLetit.JPG', './thumbnailbeerroultee.JPG','./bingothumbnail.JPG']
 const leletalk = {
     title: 'Lele Talk',
     inAppLink: '/projects/leletalk',
