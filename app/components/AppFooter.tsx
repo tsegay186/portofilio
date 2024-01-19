@@ -18,27 +18,27 @@ const AppFooter = () => {
     <div className="flex w-full  px-10 py-12 items-center justify-evenly  ">
       <div className="flex flex-col">
         <div className="flex gap-2 pb-2">
-          <FontAwesomeIcon icon={faLocationDot} size="50"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faLocationDot} size="6x"></FontAwesomeIcon>
           <address>Addis Ababa, Ethiopia</address>
         </div>
         <div className="flex gap-2 pb-2">
-          <FontAwesomeIcon icon={faPhone} size="50"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faPhone} size="6x"></FontAwesomeIcon>
           <p>+251904282801</p>
         </div>
         <div className="flex gap-2 pb-2">
-          <FontAwesomeIcon icon={faEnvelope} size="50"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faEnvelope} size="6x"></FontAwesomeIcon>
           <p>tsegay.berhanu186@gmail.com</p>
         </div>
       </div>
       <div className="flex gap-4 flex-col md:flex-row py-4  ">
         <Link href="https://github.com/tsegay186" target="_blank">
-          <FontAwesomeIcon icon={faGithub} size="50"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faGithub} size="6x"></FontAwesomeIcon>
         </Link>
         <Link href="https://www.linkedin.com/in/izona" target="_blank">
-          <FontAwesomeIcon icon={faLinkedinIn} size="50"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faLinkedinIn} size="6x"></FontAwesomeIcon>
         </Link>
         <Link href="https://t.me/F9tune" target="_blank">
-          <FontAwesomeIcon icon={faTelegram} size="50"></FontAwesomeIcon>
+          <FontAwesomeIcon icon={faTelegram} size="6x"></FontAwesomeIcon>
         </Link>
       </div>
     </div>
