@@ -11,7 +11,7 @@ const AppHeader = () => {
                 <div className='py-5 w-full absolute bg-red' style={{backgroundColor:'#f8f8f8', borderBottom:'1px solid lightgray'}}>
                     <div className='px-5 md:px-12 flex items-center h-full gap-x-8 '>
                         <div className='flex justify-center max-sm:w-1/2'>
-                            <p className='w-full text-lg'>Brand</p>
+                            <p className='w-full text-lg'>Tsegay</p>
                         </div>
                         <div className='w-4/5 flex gap-x-10 justify-end'>
                             <div className='hidden sm:flex sm:z-50'>
