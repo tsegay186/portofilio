@@ -7,18 +7,23 @@ const what = {
   header: "What Is Virtual Bingo",
   thumbnail: "/whatb.png",
   description: ``,
+  alt:'bingo'
+
 };
 
 const why = {
   header: "Why Virtual Bingo",
   thumbnail: "/whybingo.JPG",
   description: "Why",
+  alt:'bingo'
+
 };
 
 const how = {
   header: "How Virtual Bingo",
   thumbnail: "/howBingo.JPG",
   description: "How",
+  alt:'bingo'
 };
 
 interface WhQ {

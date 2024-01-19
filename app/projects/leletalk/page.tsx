@@ -6,18 +6,24 @@ const what = {
   header: "What Is Lele Talk",
   thumbnail: "",
   description: ``,
+  alt:'bingo'
+
 };
 
 const why = {
   header: "Why Lele talk",
   thumbnail: "/beerWhy.JPG",
   description: "Why",
+  alt:'bingo'
+
 };
 
 const how = {
   header: "How Lele talk",
   thumbnail: "",
   description: "How",
+  alt:'bingo'
+
 };
 
 interface WhQ {

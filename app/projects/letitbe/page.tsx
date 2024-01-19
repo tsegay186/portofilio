@@ -6,18 +6,24 @@ const what = {
   header: "What Is Let It Be",
   thumbnail: "/letitbe.png",
   description: ``,
+  alt:'bingo'
+
 };
 
 const why = {
   header: "Why Let It Be",
   thumbnail: "/letit.JPG",
   description: "Why",
+  alt:'bingo'
+
 };
 
 const how = {
   header: "How Virtual Bingo",
   thumbnail: "/whylet.jpg",
   description: "How",
+  alt:'bingo'
+
 };
 
 interface WhQ {
