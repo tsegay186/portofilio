@@ -4,19 +4,19 @@ import Tools from "@/app/components/tools";
 import Link from "next/link";
 const what = {
   header: "What Is Let It Be",
-  thumbnail: "/whatb.png",
+  thumbnail: "/letitbe.png",
   description: ``,
 };
 
 const why = {
   header: "Why Let It Be",
-  thumbnail: "/whybingo.JPG",
+  thumbnail: "/letit.JPG",
   description: "Why",
 };
 
 const how = {
   header: "How Virtual Bingo",
-  thumbnail: "/howBingo.JPG",
+  thumbnail: "/whylet.jpg",
   description: "How",
 };
 
@@ -98,7 +98,7 @@ const What = () => {
         </p>
       </div>
       <Image
-        src="/bingothumbnail.jpg"
+        src="/letitth.JPG"
         width={500}
         height={500}
         alt="bingo"
@@ -150,7 +150,7 @@ const Why = () => {
         <p className="max-w-xl"></p>
       </div>
       <Image
-        src="/bingowhat.jpg"
+        src="/socket.JPG"
         width={500}
         height={500}
         alt="bingo"
@@ -189,7 +189,7 @@ const How = () => {
         </ol>
       </div>
       <Image
-        src="/whybin.jpeg"
+        src="/wonn.JPG"
         width={500}
         height={500}
         alt="bingo"
