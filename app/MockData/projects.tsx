@@ -1,9 +1,9 @@
-import beerRouletteThumbnail from '/public/beerRouletteThumbnail.JPG'
-import digitalBingoThumbnail from '/public/digitalBingoThumbnail.JPG'
-import leletalkThumbnail from '/public/leletalkThumbnail.jpg'
-import geezOCRThumbnail from '/public/geezOcrThumbnail.JPG'
-import letItBeThumbnail from '/public/letItThumbnail.JPG'
-import nameStoreThumbnail from '/public/nameStoreThumbnail.JPG'
+import beerRouletteThumbnail from '/beerRouletteThumbnail.JPG'
+import digitalBingoThumbnail from '/digitalBingoThumbnail.JPG'
+import leletalkThumbnail from '/leletalkThumbnail.jpg'
+import geezOCRThumbnail from '/geezOcrThumbnail.JPG'
+import letItBeThumbnail from '/letItThumbnail.JPG'
+import nameStoreThumbnail from '/nameStoreThumbnail.JPG'
 
 const leletalk = {
     title: 'Lele Talk',
