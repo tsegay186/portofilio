@@ -19,7 +19,7 @@ const why = {
 };
 
 const how = {
-  header: "How Virtual Bingo",
+  header: "How Let It Be",
   thumbnail: "/whylet.jpg",
   description: "How",
   alt:'bingo'

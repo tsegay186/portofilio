@@ -1,7 +1,7 @@
 import beerRouletteThumbnail from '/public/thumbnails/beerRouletteThumbnail.jpg'
 import digitalBingoThumbnail from '/public/thumbnails/digitalBingoThumbnail.jpg'
 import leletalkThumbnail from '/public/thumbnails/leletalkThumbnail.jpg'
-import geezOCRThumbnail from '/public/thumbnails/geezOCRThumbnail.jpg'
+import geezOCRThumbnail from '/public/thumbnails/geezOcrThumbnail.jpg'
 import letItBeThumbnail from '/public/thumbnails/letItThumbnail.jpg'
 import nameStoreThumbnail from '/public/thumbnails/nameStoreThumbnail.jpg'
 

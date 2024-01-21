@@ -5,14 +5,14 @@ const tools = ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React Js"];
 
 const what = {
   header: "What Is Beer Roultee",
-  thumbnail: "/beerol.JPG",
+  thumbnail: "/whatIsBeerRoulette.jpg",
   description: ``,
   alt:'beerRoulette'
 };
 
 const why = {
   header: "Why Beer Roultee",
-  thumbnail: "/beerWhy.JPG",
+  thumbnail: "/whyBeerRoulette.jpg",
   description: "Why",
   alt:'beerRoulette'
 
