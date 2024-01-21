@@ -5,7 +5,7 @@ import Tools from "@/app/components/tools";
 
 const what = {
   header: "What Is Virtual Bingo",
-  thumbnail: "/whatb.png",
+  thumbnail: "/whatIsBingo.jpg",
   description: ``,
   alt:'bingo'
 
@@ -13,15 +13,14 @@ const what = {
 
 const why = {
   header: "Why Virtual Bingo",
-  thumbnail: "/whybingo.JPG",
+  thumbnail: "/whyBingo.jpg",
   description: "Why",
   alt:'bingo'
-
 };
 
 const how = {
   header: "How Virtual Bingo",
-  thumbnail: "/howBingo.JPG",
+  thumbnail: "/howBingo.jpg",
   description: "How",
   alt:'bingo'
 };
