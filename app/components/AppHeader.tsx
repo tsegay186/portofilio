@@ -30,7 +30,7 @@ const AppHeader = () => {
                 </div>
             </header>
             {
-                openNav && <div className=' w-full top-14 mt-2 p-4 bg-gradient-to-r sm:hidden from-blue-500  bg-red-600 pt-14  fixed z-50'>
+                openNav && <div className=' w-full top-14 mt-2 p-4  sm:hidden   bg-gradient-to-r from-slate-100 to-gray-100 pt-14  fixed z-50'>
                     <Nav />
                 </div>
             }

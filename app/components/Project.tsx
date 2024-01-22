@@ -25,7 +25,7 @@ export const Project = ({
 }: Project) => {
   return (
     <div
-      className="w-full rounded-md p-4 "
+      className="w-full p-4 rounded-b-md rounded-t-none sm:rounded-r-md sm:rounded-l-none"
       style={{ boxShadow: "0px 5px 10px 0px rgba(0, 0, 0, 0.5)" }}
     >
       <div>

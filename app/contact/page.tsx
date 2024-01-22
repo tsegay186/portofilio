@@ -98,6 +98,7 @@ const Contact = () => {
                   borderRadius: "6px",
                   borderTopLeftRadius: "0",
                   paddingLeft: "12px",
+                  paddingTop:'4px',
                   border: "1px solid black",
                 }}
                 id="message"
