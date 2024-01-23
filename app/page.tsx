@@ -16,7 +16,7 @@ export default function Home() {
         </section>
         <section id="skill" className="flex flex-col w-full ">
           <div className="self-center">
-            <h1>Skills</h1>
+            <h1 className="text-5xl font-serif bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text" >Skills</h1>
           </div>
           <Skills />
         </section>
@@ -24,14 +24,14 @@ export default function Home() {
           id="projects"
           className=" flex  justify-center w-full  sm:w-3/4 flex-col sm:flex-row flex-wrap gap-x-8 gap-y-4"
         >
-          <div className="self-center md:justify-end">
-            <h1>projects</h1>
+          <div className="self-center md:justify-end mb-8">
+            <h1 className="text-5xl font-serif bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Projects</h1>
           </div>
           {myProjects.map((project, index) => (
             <div key={index} className=" flex flex-col sm:flex-row">
-              <div className="bg-gradient-to-r from-slate-300 to-gray-300 flex sm:flex-col  flex-wrap w-full justify-around sm:w-48 p-4 gap-4 sm:h-full rounded-t-3xl sm:rounded-l-3xl sm:rounded-r-none">
+              <div className="bg-gradient-to-r from-slate-400 to-zinc-300 flex sm:flex-col  flex-wrap w-full justify-around sm:w-48 p-4 gap-4 sm:h-full rounded-t-3xl sm:rounded-l-3xl sm:rounded-r-none">
                 {project?.skills.map((skill, index) => (
-                  <button key={index} className="bg-slate-100 h-12 px-4 rounded-xl shadow-inner cursor-text">
+                  <button key={index} className=" h-12 px-4 rounded-l-md shadow-inner cursor-text">
                     <p>{skill}</p>
                   </button>
                 ))}
@@ -43,8 +43,11 @@ export default function Home() {
       </div>
       <section
         id="contact"
-        className=" w-full flex-col gap-y-4 justify-center mt-4 bg-gray-50"
+        className=" w-full flex-col gap-y-4 justify-center items-center mt-4 bg-gray-50"
       >
+        <div className="flex justify-center pt-8">
+            <h1 className="text-5xl font-serif self-center bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text" >Contact Me</h1>
+          </div>
         <Contact />
       </section>
     </>
@@ -64,7 +67,7 @@ const Profile = () => {
               alt=""
               style={{ borderRadius: "50%" }}
             />
-            <h1 className="text-5xl font-bold items-center self-end">Hello.</h1>
+            <h1 className="text-5xl font-bold items-center font-serif self-end">Hello.</h1>
           </div>
           <p className="text-xl font-light  max-w-xl pt-6 ">
             My name is{" "}

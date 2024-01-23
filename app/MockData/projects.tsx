@@ -3,7 +3,7 @@ import digitalBingoThumbnail from '/public/thumbnails/digitalBingoThumbnail.jpg'
 import leletalkThumbnail from '/public/thumbnails/leletalkThumbnail.jpg'
 import geezOCRThumbnail from '/public/thumbnails/geezOcrThumbnail.jpg'
 import letItBeThumbnail from '/public/thumbnails/letItThumbnail.jpg'
-import nameStoreThumbnail from '/public/thumbnails/nameStoreThumbnail.jpg'
+import nameStoreThumbnail from '/public/thumbnails/nameStoreThumbnaile.jpg'
 
 const leletalk = {
     title: 'Lele Talk',
