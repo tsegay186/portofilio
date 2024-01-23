@@ -22,7 +22,7 @@ export default function Home() {
         </section>
         <section
           id="projects"
-          className=" flex  justify-center w-full  sm:w-3/4 flex-col sm:flex-row flex-wrap gap-x-8 gap-y-4"
+          className=" flex  justify-center w-full  sm:w-3/4 flex-col sm:flex-row flex-wrap gap-x-8 gap-y-8"
         >
           <div className="self-center md:justify-end mb-8">
             <h1 className="text-5xl font-serif bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Projects</h1>

@@ -51,9 +51,9 @@ const Nav = () => {
                 <li className='w-full'>
                     <Link href="/#projects" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Projects</Link>
                 </li>
-                <li className='w-full'>
+                {/* <li className='w-full'>
                     <Link href="/#resume" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Resume</Link>
-                </li>
+                </li> */}
                 <li className='w-full'>
                     <Link href="/#contact" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Contact</Link>
                 </li>
