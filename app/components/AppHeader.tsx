@@ -17,7 +17,6 @@ const AppHeader = () => {
                             <div className='hidden sm:flex sm:z-50'>
                                 <Nav />
                             </div>
-
                             <div className='flex sm:hidden '>
                                 <button onClick={() => setOpenNav(openNav => !openNav)}>
                                     {
@@ -43,19 +42,19 @@ const Nav = () => {
         <nav >
             <ul className='flex flex-col sm:flex-row gap-x-8 justify-center gap-y-3' >
                 <li className='w-full'>
-                    <Link href="/" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full sm:hover:bg-slate-100 sm:p-2' >Home</Link>
+                    <Link href="/" className='py-2 w:full flex justify-center hover:bg-gradient-to-r from-slate-400 to-zinc-300 w-full h-full sm:hover:bg-slate-100 sm:p-2' >Home</Link>
                 </li>
                 <li className='w-full'>
-                    <Link href="/#skill" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Skills</Link>
+                    <Link href="/#skill" className='py-2 w:full flex justify-center hover:bg-gradient-to-r from-slate-400 to-zinc-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Skills</Link>
                 </li>
                 <li className='w-full'>
-                    <Link href="/#projects" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Projects</Link>
+                    <Link href="/#projects" className='py-2 w:full flex justify-center hover:bg-gradient-to-r from-slate-400 to-zinc-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Projects</Link>
                 </li>
                 {/* <li className='w-full'>
-                    <Link href="/#resume" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Resume</Link>
+                    <Link href="/#resume" className='py-2 w:full flex justify-center hover:bg-gradient-to-r from-slate-400 to-zinc-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Resume</Link>
                 </li> */}
                 <li className='w-full'>
-                    <Link href="/#contact" className='py-2 w:full flex justify-center hover:bg-emerald-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Contact</Link>
+                    <Link href="/#contact" className='py-2 w:full flex justify-center hover:bg-gradient-to-r from-slate-400 to-zinc-300 w-full h-full  sm:hover:bg-slate-100 sm:p-2' >Contact</Link>
                 </li>
             </ul>
         </nav>

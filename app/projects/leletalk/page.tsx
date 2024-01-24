@@ -1,34 +1,39 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Tools from "@/app/components/tools";
+
+import whatLeleThumbnail from "/public/leleSignUp.jpg";
+import whyLeleThumbnail from "/public/thumbnails/leletalkThumbnail.jpg";
+import HowLeleThumbnail from "/public/leleSetting.jpg";
+
 
 const what = {
   header: "What Is Lele Talk",
-  thumbnail: "",
+  thumbnail: whatLeleThumbnail,
   description: ``,
-  alt:'bingo'
+  alt:'what lele'
 
 };
 
 const why = {
   header: "Why Lele talk",
-  thumbnail: "/beerWhy.JPG",
+  thumbnail: whyLeleThumbnail,
   description: "Why",
-  alt:'bingo'
+  alt:'why lele'
 
 };
 
 const how = {
   header: "How Lele talk",
-  thumbnail: "",
+  thumbnail: HowLeleThumbnail,
   description: "How",
-  alt:'bingo'
+  alt:'how lele'
 
 };
 
 interface WhQ {
   header: string;
-  thumbnail: string;
+  thumbnail: StaticImageData;
   description: string;
   alt: string;
 }
@@ -101,7 +106,7 @@ const What = () => {
         </div>
         <div>
           <Image
-            src="/leletalk.jpg"
+            src={whatLeleThumbnail}
             width={500}
             height={500}
             alt="bingo"
@@ -131,7 +136,7 @@ const Why = () => {
         </div>
         <div>
           <Image
-            src="/settingleletalk.jpeg"
+            src={whyLeleThumbnail}
             width={500}
             height={500}
             alt="bingo"
@@ -190,7 +195,7 @@ const How = () => {
         </div>
         <div>
           <Image
-            src="/lelehow.JPEG"
+            src={HowLeleThumbnail}
             width={500}
             height={500}
             alt="bingo"

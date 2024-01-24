@@ -1,35 +1,41 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Tools from "@/app/components/tools";
 import Link from "next/link";
+
+import letWhat from "/public/whatLet.jpg";
+import letHow from "/public/letItHow.jpg";
+import letWhy from "/public/letItWhy.jpg";
+
+import whatLetItThumbnail from '/public/whatIsLetItBe.jpg'
+import whyLetItThumbnail from '/public/whyLetIt.jpg'
+import howLetItThumbnail from '/public/letItwhat.jpg'
+
 const what = {
   header: "What Is Let It Be",
-  thumbnail: "/letitbe.png",
+  thumbnail: whatLetItThumbnail,
   description: ``,
   alt:'bingo'
-
 };
 
 const why = {
   header: "Why Let It Be",
-  thumbnail: "/letit.JPG",
+  thumbnail: whyLetItThumbnail,
   description: "Why",
   alt:'bingo'
-
 };
 
 const how = {
   header: "How Let It Be",
-  thumbnail: "/whylet.jpg",
+  thumbnail: howLetItThumbnail,
   description: "How",
   alt:'bingo'
-
 };
 
 interface WhQ {
   header: string;
-  thumbnail: string;
-  description: string;
+  thumbnail: StaticImageData;
+  description?: string;
   alt: string;
 }
 
@@ -55,7 +61,7 @@ const Page = () => {
     </div>
   );
 };
-const WhatIs = ({ header, thumbnail, description, alt }: WhQ) => {
+const WhatIs = ({ header, thumbnail, alt }: WhQ) => {
   return (
     <div className="w-full hello h-full py-4 rounded   flex flex-col gap-y-12 border-b">
       <div className="why flex flex-col gap-y-8">
@@ -104,7 +110,7 @@ const What = () => {
         </p>
       </div>
       <Image
-        src="/letitth.JPG"
+        src={letWhat}
         width={500}
         height={500}
         alt="bingo"
@@ -156,7 +162,7 @@ const Why = () => {
         <p className="max-w-xl"></p>
       </div>
       <Image
-        src="/socket.JPG"
+        src={letWhy}
         width={500}
         height={500}
         alt="bingo"
@@ -195,7 +201,7 @@ const How = () => {
         </ol>
       </div>
       <Image
-        src="/wonn.JPG"
+        src={letHow}
         width={500}
         height={500}
         alt="bingo"

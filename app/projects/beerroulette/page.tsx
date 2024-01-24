@@ -1,18 +1,27 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Tools from "@/app/components/tools";
+
+
+import beerWhat from '/public/beerWhat.jpg' 
+import beerHow from '/public/beerHow.jpg' 
+import beerWhy from '/public/beerWhy.jpg' 
+
+import whatBeerRouletteThumbnail from '/public/whatIsBeerRoulette.jpg'
+import whyBeerRouletteThumbnail from '/public/whyBeerRoulette.jpg'
+
 const tools = ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React Js"];
 
 const what = {
   header: "What Is Beer Roultee",
-  thumbnail: "/whatIsBeerRoulette.jpg",
+  thumbnail: whatBeerRouletteThumbnail,
   description: ``,
   alt:'beerRoulette'
 };
 
 const why = {
   header: "Why Beer Roultee",
-  thumbnail: "/whyBeerRoulette.jpg",
+  thumbnail: whyBeerRouletteThumbnail,
   description: "Why",
   alt:'beerRoulette'
 
@@ -20,14 +29,13 @@ const why = {
 
 const how = {
   header: "How Beer Roultee",
-  thumbnail: "",
   description: "How",
   alt:'beerRoulette'
 };
 
 interface WhQ {
   header: string;
-  thumbnail: string;
+  thumbnail?: StaticImageData;
   description: string;
   alt: string;
 }
@@ -102,7 +110,7 @@ const What = () => {
         </div>
         <div>
           <Image
-            src="/thumbnailbeerroultee.jpg"
+            src={beerWhat}
             width={500}
             height={500}
             alt="bingo"
@@ -147,7 +155,7 @@ const Why = () => {
         </div>
         <div>
           <Image
-            src="/whybeerroultee.jpg"
+            src={beerHow}
             width={500}
             height={500}
             alt="bingo"
@@ -194,7 +202,7 @@ const How = () => {
         </div>
         <div>
           <Image
-            src="/howbeerroultee.JPG"
+            src={beerWhy}
             width={500}
             height={500}
             alt="bingo"
