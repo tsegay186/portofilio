@@ -1,11 +1,10 @@
 import React from "react";
-import "./bingo.css";
 import Image, { StaticImageData } from "next/image";
 import Tools from "@/app/components/tools";
 
 import bingoWhat from "/public/thumbnails/digitalBingoThumbnail.jpg";
-import bingoHow from "/public/bingoWhat.jpg";
-import bingoWhy from "/public/bingoWhy.jpg";
+import bingoHow from "/public/beerHow.jpg";
+import bingoWhy from "/public/beerWhat.jpg";
 
 import whatVirtualBingoThumbnail from "/public/whatIsBingo.jpg";
 import whyVirtualBingoThumbnail from "/public/whyBingo.jpg";
