@@ -7,7 +7,7 @@ import Tools from "@/app/components/tools";
 // import bingoWhy from "/public/beerWhat.jpg";
 
 import whatVirtualBingoThumbnail from "/public/whatIsBingo.jpg";
-import whyVirtualBingoThumbnail from "/public/whyBingo.jpg";
+//import whyVirtualBingoThumbnail from "/public/whyBingo.jpg";
 import HowVirtualBingoThumbnail from "/public/howBingo.jpg";
 
 const what = {
@@ -19,7 +19,7 @@ const what = {
 
 const why = {
   header: "Why Virtual Bingo",
-  thumbnail: whyVirtualBingoThumbnail,
+  //thumbnail: whyVirtualBingoThumbnail,
   description: "Why",
   alt: "Why Virtual Bingo",
 };
