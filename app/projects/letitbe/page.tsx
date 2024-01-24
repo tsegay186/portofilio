@@ -15,21 +15,21 @@ const what = {
   header: "What Is Let It Be",
   thumbnail: whatLetItThumbnail,
   description: ``,
-  alt:'bingo'
+  alt:'let it what'
 };
 
 const why = {
   header: "Why Let It Be",
   thumbnail: whyLetItThumbnail,
   description: "Why",
-  alt:'bingo'
+  alt:'let it why'
 };
 
 const how = {
   header: "How Let It Be",
   thumbnail: howLetItThumbnail,
   description: "How",
-  alt:'bingo'
+  alt:'let it how'
 };
 
 interface WhQ {
@@ -113,7 +113,7 @@ const What = () => {
         src={letWhat}
         width={500}
         height={500}
-        alt="bingo"
+        alt="letwhat"
         className="pt-2 mt-4 w-auto h-auto"
       ></Image>
     </>
@@ -165,7 +165,7 @@ const Why = () => {
         src={letWhy}
         width={500}
         height={500}
-        alt="bingo"
+        alt="letwhy"
         className="pt-2 w-auto h-auto"
       ></Image>
     </>
@@ -204,7 +204,7 @@ const How = () => {
         src={letHow}
         width={500}
         height={500}
-        alt="bingo"
+        alt="lethow"
         className="pt-2 w-auto h-auto"
       ></Image>
     </>

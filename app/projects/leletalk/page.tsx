@@ -109,7 +109,7 @@ const What = () => {
             src={whatLeleThumbnail}
             width={500}
             height={500}
-            alt="bingo"
+            alt="lele what"
             className=" w-auto h-auto"
           ></Image>
         </div>
@@ -139,7 +139,7 @@ const Why = () => {
             src={whyLeleThumbnail}
             width={500}
             height={500}
-            alt="bingo"
+            alt="lele why"
             className=" w-auto h-auto"
           ></Image>
         </div>
@@ -198,7 +198,7 @@ const How = () => {
             src={HowLeleThumbnail}
             width={500}
             height={500}
-            alt="bingo"
+            alt="lele how"
             className=" w-auto h-auto "
           ></Image>
         </div>

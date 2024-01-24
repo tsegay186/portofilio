@@ -113,7 +113,7 @@ const What = () => {
             src={beerWhat}
             width={500}
             height={500}
-            alt="bingo"
+            alt="beer Roulette What"
             className=" w-auto h-auto"
           ></Image>
         </div>
@@ -158,7 +158,7 @@ const Why = () => {
             src={beerHow}
             width={500}
             height={500}
-            alt="bingo"
+            alt="beer Roulette Why"
             className=" w-auto h-auto"
           ></Image>
         </div>
@@ -205,7 +205,7 @@ const How = () => {
             src={beerWhy}
             width={500}
             height={500}
-            alt="bingo"
+            alt="beer Roulette How"
             className=" w-auto h-auto"
           ></Image>
         </div>

@@ -115,7 +115,7 @@ const What = () => {
         src={bingoWhat}
         width={500}
         height={500}
-        alt="bingo"
+        alt="bingo what"
         className="mt-4 w-auto h-auto"
       ></Image>
     </>
@@ -153,7 +153,7 @@ const Why = () => {
         src={bingoWhy}
         width={500}
         height={500}
-        alt="bingo"
+        alt="bingo why "
         className=" w-auto h-auto"
       ></Image>
     </>
@@ -202,7 +202,7 @@ const How = () => {
         src={bingoHow}
         width={500}
         height={500}
-        alt="bingo"
+        alt="bingo how "
         className=" w-auto h-auto"
       ></Image>
     </>
