@@ -19,7 +19,7 @@ const what = {
 
 const why = {
   header: "Why Virtual Bingo",
-  //thumbnail: whyVirtualBingoThumbnail,
+  thumbnail: HowVirtualBingoThumbnail,
   description: "Why",
   alt: "Why Virtual Bingo",
 };
