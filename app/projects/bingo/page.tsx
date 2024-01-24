@@ -2,9 +2,9 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import Tools from "@/app/components/tools";
 
-import bingoWhat from "/public/thumbnails/digitalBingoThumbnail.jpg";
-import bingoHow from "/public/beerHow.jpg";
-import bingoWhy from "/public/beerWhat.jpg";
+// import bingoWhat from "/public/thumbnails/digitalBingoThumbnail.jpg";
+// import bingoHow from "/public/beerHow.jpg";
+// import bingoWhy from "/public/beerWhat.jpg";
 
 import whatVirtualBingoThumbnail from "/public/whatIsBingo.jpg";
 import whyVirtualBingoThumbnail from "/public/whyBingo.jpg";
@@ -110,13 +110,13 @@ const What = () => {
           bingo, but with some exciting technological twists!
         </p>
       </div>
-      <Image
+      {/* <Image
         src={bingoWhat}
         width={500}
         height={500}
         alt="bingo what"
         className="mt-4 w-auto h-auto"
-      ></Image>
+      ></Image> */}
     </>
   );
 };
@@ -148,13 +148,13 @@ const Why = () => {
         </ol>
         <p className="max-w-xl"></p>
       </div>
-      <Image
+      {/* <Image
         src={bingoWhy}
         width={500}
         height={500}
         alt="bingo why "
         className=" w-auto h-auto"
-      ></Image>
+      ></Image> */}
     </>
   );
 };
@@ -197,13 +197,13 @@ const How = () => {
           </li>
         </ol>
       </div>
-      <Image
+      {/* <Image
         src={bingoHow}
         width={500}
         height={500}
         alt="bingo how "
         className=" w-auto h-auto"
-      ></Image>
+      ></Image> */}
     </>
   );
 };
