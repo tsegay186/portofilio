@@ -3,8 +3,6 @@ import digitalBingoThumbnail from '/public/thumbnails/digitalBingoThumbnail.jpg'
 import leletalkThumbnail from '/public/thumbnails/leletalkThumbnail.jpg'
 import geezOCRThumbnail from '/public/thumbnails/geezOcrThumbnail.jpg'
 import letItBeThumbnail from '/public/thumbnails/letItThumbnail.jpg'
-import nameStoreThumbnail from '/public/thumbnails/nameStoreThumbnaile.jpg'
-
 const leletalk = {
     title: 'Lele Talk',
     inAppLink: '/projects/leletalk',
@@ -38,7 +36,7 @@ const geezOCR = {
     title: 'Let It Be',
     inAppLink: '/projects/letitbe',
     gitHubLink: ['https://github.com/tsegay186/letitbe','https://github.com/tsegay186/iconclast'],
-    webLink: 'https://letit.onrender.com/',
+    webLink: '',
     thumbnail: letItBeThumbnail,
     description: `A social game of chance and intuition where players test their lucky charms against fate. Each participant selects five numbers, then collectively witnesses the app reveal random numbers one by one. The player whose chosen numbers are drawn first claims victory.`,
     skills:['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'Vue', 'Node Js', 'SocketIo','Express Js']
@@ -54,16 +52,6 @@ const beerRoulette = {
     skills:['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'React Js']
 }
 
-const nameStore = {
-    title: 'Name Store',
-    inAppLink: '',
-    gitHubLink: ['github.com/tsegay186/namestore'],
-    webLink: '',
-    thumbnail: nameStoreThumbnail,
-    description: `This innovative app dives into the diverse names across cultures, uncovering the playful nicknames and heartfelt endearments used around the world. Users can contribute their knowledge, building a vibrant community that celebrates the uniqueness and shared humanity woven into names.`,
-    skills:['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'React Js']
-}
-
-const myProjects = [nameStore, beerRoulette, letItBe,geezOCR, digitalBingo, leletalk]
+const myProjects = [beerRoulette, letItBe,geezOCR, digitalBingo, leletalk]
 
 export default myProjects
