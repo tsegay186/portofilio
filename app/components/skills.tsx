@@ -1,52 +1,68 @@
 import React from "react";
 const markup = {
-  toolSets: ["HTML", "XML", "JSX"],
-  style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-12 px-20 justify-center ",
+  toolSets: ["HTML", "JSX"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300  py-12 px-20 justify-center ",
 };
 const styling = {
-  toolSets: ["CSS", "Tailwid CSS", "Vuetify Js", "Material UI", "Bootstrap"],
-  style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-12 px-24 justify-center ",
+  toolSets: ["CSS", "Tailwid CSS", "Material UI"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300  py-12 px-24 justify-center ",
 };
 
 const interaction = {
-  toolSets: ["JavaScript", "React JS", "Vue Js", "Nuxt Js", "Next JS"],
-  style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-10 px-24 justify-center ",
+  toolSets: ["JavaScript", "React JS", "Vue Js", "Next JS"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300  py-10 px-24 justify-center ",
 };
 
 const intrface = {
-  toolSets: ["HTTP", "REST", "FetchAPI", "Axios", "JSON", "Json Web Token"],
-  style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-10 px-24 justify-center ",
+  toolSets: ["HTTP", "REST", "JSON", "Json Web Token"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300  py-10 px-24 justify-center ",
 };
 
 const serverLanguages = {
   toolSets: [
     "Node JS",
     "Express Js",
-    ".net Core",
+    ".Net Core",
     "ASP.NET Core",
-    "Java",
-    "Pythone",
+    "Python",
   ],
-  style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-10 px-24 justify-center ",
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300  py-10 px-24 justify-center ",
 };
 
 const databases = {
   toolSets: [
     "MongoDb",
     "Mongoose",
-    "MYSQL",
-    "JDBC",
     "SQL",
-    "Entity Framework Core",
+    "PostgreSql",
+    "Prisma",
   ],
-  style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-14 px-24 justify-center ",
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300  py-14 px-24 justify-center ",
 };
 
-const test = { toolSets: ["test"], style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-8 px-16 justify-center items-center flex h-48 " };
+const test = {
+  toolSets: ["test"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300   justify-center items-center flex  rounded-full",
+};
 
-const devops = {toolSets: ["DevOps"], style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-8 px-16 justify-center items-center flex h-48 " }
+const devops = {
+  toolSets: ["DevOps"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300   justify-center items-center flex  rounded-full",
+};
 
-const deploy = { toolSets: ["host"], style: "bg-gradient-to-r from-slate-400 to-zinc-300  py-4 px-16 justify-center items-center flex h-48" };
+const deploy = {
+  toolSets: ["host"],
+  style:
+    "bg-gradient-to-r from-slate-400 to-zinc-300   justify-center items-center flex  rounded-full",
+};
 
 const tools = [
   markup,
@@ -84,16 +100,10 @@ interface ToolProps {
 const Tool = ({ tools, toolcss }: ToolProps) => {
   return (
     <>
-      <div className={toolcss} style={{ borderRadius: "50%" }}>
+      <div className="bg-gradient-to-r from-slate-400 to-zinc-300 flex h-48 w-48 min-w-fit justify-center items-center rounded-full">
         <div>
           {tools?.map((tool, index) => (
-            <div
-              key={index}
-              className="p-2
-            "
-            >
-              {tool}
-            </div>
+            <div key={index}>{tool}</div>
           ))}
         </div>
       </div>
