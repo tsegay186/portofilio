@@ -33,10 +33,10 @@ const geezOCR = {
 }
 
     const letItBe = {
-    title: 'Let It Be',
+    title: 'Pentad',
     inAppLink: '/projects/letitbe',
     gitHubLink: ['https://github.com/tsegay186/letitbe','https://github.com/tsegay186/iconclast'],
-    webLink: '',
+    webLink: 'https://pentad.onrender.com/',
     thumbnail: letItBeThumbnail,
     description: `A social game of chance and intuition where players test their lucky charms against fate. Each participant selects five numbers, then collectively witnesses the app reveal random numbers one by one. The player whose chosen numbers are drawn first claims victory.`,
     skills:['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'Vue', 'Node Js', 'SocketIo','Express Js']
