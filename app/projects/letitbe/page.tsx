@@ -12,21 +12,21 @@ import whyLetItThumbnail from '/public/whyLetIt.jpg'
 import howLetItThumbnail from '/public/letItwhat.jpg'
 
 const what = {
-  header: "What Is Let It Be",
+  header: "What Is Pentad",
   thumbnail: whatLetItThumbnail,
   description: ``,
   alt:'let it what'
 };
 
 const why = {
-  header: "Why Let It Be",
+  header: "Why Pentad",
   thumbnail: whyLetItThumbnail,
   description: "Why",
   alt:'let it why'
 };
 
 const how = {
-  header: "How Let It Be",
+  header: "How Pentad",
   thumbnail: howLetItThumbnail,
   description: "How",
   alt:'let it how'
@@ -106,7 +106,7 @@ const What = () => {
           starts calling out numbers, one by one. The excitement builds as
           everyone eagerly checks their cards, hoping to hear their numbers
           called. The first person to cross off all 5 numbers on their card
-          shouts Let It Be! and wins the game!
+          shouts out! and wins the game!
         </p>
       </div>
       <Image
@@ -178,7 +178,7 @@ const How = () => {
       <div className="max-w-xl">
         <ol className="flex flex-col gap-y-2">
           <li>
-            <b>Entering web address or click this <Link href="https://letit.onrender.com/" target="_blank" className="text-red">link</Link></b><br />
+            <b>Entering web address or click this <Link href="https://pentad.onrender.com/" target="_blank" className="text-red">link</Link></b><br />
             The app will establish a connection with the server
             to initiate gameplay. This might involve a brief connection time.
             </li>
