@@ -36,7 +36,7 @@ const AppFooter = () => {
         <Link href="https://www.linkedin.com/in/tsegayberhanu/" target="_blank">
           <FontAwesomeIcon icon={faLinkedinIn} size="lg" className="text-slate-900"></FontAwesomeIcon>
         </Link>
-        <Link href="https://t.me/izona_3" target="_blank">
+        <Link href="https://t.me/TsegayB" target="_blank">
           <FontAwesomeIcon icon={faTelegram} size="lg" className="text-slate-900"></FontAwesomeIcon>
         </Link>
       </div>
