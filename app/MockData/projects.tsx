@@ -3,6 +3,18 @@ import digitalBingoThumbnail from '/public/thumbnails/digitalBingoThumbnail.jpg'
 import leletalkThumbnail from '/public/thumbnails/leletalkThumbnail.jpg'
 import geezOCRThumbnail from '/public/thumbnails/geezOcrThumbnail.jpg'
 import letItBeThumbnail from '/public/thumbnails/letItThumbnail.jpg'
+import jonatoThumbnail from '/public/thumbnails/hh.jpg'
+
+const jonatoo = {
+    title: 'Jonato',
+    inAppLink: '/projects/leletalk',
+    gitHubLink: ['',''],
+    webLink: '',
+    thumbnail: jonatoThumbnail,
+    description: `A fun and engaging Telegram-based clicker game inspired by the latest Web3 clicker projects. Players compete by tapping to earn rewards, unlock upgrades, and challenge others in dynamic, interactive battles.`,
+    skills:['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'TypeScript', 'Next Js', 'Grammy', 'Telegram Web App', 'Postgresql']
+}
+
 const leletalk = {
     title: 'Lele Talk',
     inAppLink: '/projects/leletalk',
@@ -52,6 +64,6 @@ const beerRoulette = {
     skills:['HTML', 'CSS', 'Tailwind CSS', 'JavaScript', 'React Js']
 }
 
-const myProjects = [beerRoulette, letItBe,geezOCR, digitalBingo, leletalk]
+const myProjects = [jonatoo, beerRoulette, letItBe,geezOCR, digitalBingo, leletalk]
 
 export default myProjects
