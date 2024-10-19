@@ -3,7 +3,7 @@ import digitalBingoThumbnail from '/public/thumbnails/digitalBingoThumbnail.jpg'
 import leletalkThumbnail from '/public/thumbnails/leletalkThumbnail.jpg'
 import geezOCRThumbnail from '/public/thumbnails/geezOcrThumbnail.jpg'
 import letItBeThumbnail from '/public/thumbnails/letItThumbnail.jpg'
-import jonatoThumbnail from '/public/thumbnails/hh.jpg'
+import jonatoThumbnail from '/public/thumbnails/tap-to-earn.jpg'
 
 const jonatoo = {
     title: 'Jonato',
